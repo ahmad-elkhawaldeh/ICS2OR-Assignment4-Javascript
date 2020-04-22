@@ -11,21 +11,19 @@
    <body> enter the diameter</body>
    <br>
     <input type="text" id="rob" value="">
-       <button onclick="myfunction()"> </button>
+       <button onclick="myfunction1()"> </button>
        <br>
        <br>
-    <button onclick="myfunction()">calculate the  circumference</button>
+    <button onclick="myfunction1()">calculate the  circumference</button>
     
     
     <script>
-       function myfunction() {
+       function myfunction1() {
        let diameter ;
        let  circlecircumference;
-       let π;
       
-       
           diameter=+document.getElementById("rob").value ;
-          circlecircumference= 3.14*diameter
+          circlecircumference= Math.PI*diameter
       
         alert ("the circumference of the circle  is "+  circlecircumference)
         
@@ -36,21 +34,21 @@
        
        <p> enter the diameter</p>
         <input type="text" id="hd" value="">
-       <button onclick="myfunction()"> </button>
+       <button onclick="myfunction2()"> </button>
        <br>
        <br>
-    <button onclick="myfunction()">calculate the area of circle </button>
+    <button onclick="myfunction2()"> calculate the area of circle </button>
    
          <script>
-       function myfunction() {
-       let Diameter ;
-       let  Areaofcircle;
-       let π;
+       function myfunction2() 
+       let diameter ;
+       let  
        
-          Diameter=+document.getElementById("hd").value ;
-          Areaofcircle= 3.14*(Diameter^2/4)
+          diameter=+document.getElementById("hd").valueAreaofcircle;
+    
+          Areaofcircle= Math.PI*(diameter*diameter)/4
       
-        alert ("the Area of the circle  is "+ Areaofcircle  )
+        alert ("the Area of the circle is "+ Areaofcircle  )
        }
        </script>
        
