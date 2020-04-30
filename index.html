@@ -8,45 +8,29 @@
     <meta name="author" content="Ahmad-El-khawaldeh">
     <meta name="viewport" content="width=device-width,intial-scale1.0">
    </head>
-   <body> enter the diameter</body>
-   <br>
-    <input type="text" id="rob" value="">
-       <button onclick="myfunction1()"> </button>
-       <br>
-       <br>
-    <button onclick="myfunction1()">calculate the  circumference</button>
-    
-    
+   
     <p> enter the diameter</p>
         <input type="text" id="hd" value="">
-       <button onclick="myfunction2()"> </button>
+       <button onclick="myfunction()"> </button>
        <br>
        <br>
-    <button onclick="myfunction2()"> calculate the area of circle </button>
+    <button onclick="myfunction()"> calculate the area and circumference of the circle </button>
    
     
     
     <script>
-       function myfunction1() {
+       function myfunction() {
        let diameter ;
        let  circlecircumference;
-      
-          diameter=+document.getElementById("rob").value ;
-          circlecircumference= Math.PI*diameter
-      
-        alert ("the circumference of the circle  is "+  circlecircumference)
-        
-       
-       
-       function myfunction2() 
-       let diameter2 ;
        let areaofcircle ;
-       
-          diameter=+document.getElementById("hd").valueareaofcircle;
-    
-          Areaofcircle= Math.PI*(diameter2*diameter2)/4
       
-        alert ("the Area of the circle is "+ areaofcircle  )
+          diameter=+document.getElementById("hd").value;
+          circlecircumference= Math.PI*diameter;
+          areaofcircle= Math.PI*(diameter*diameter)/4;
+     
+           alert ("the circumference of the circle  is "+  circlecircumference);
+           alert ("the Area of the circle is "+ areaofcircle  );
+        
        }
        </script>
       
